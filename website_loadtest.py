@@ -3,7 +3,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 max_workers = 100
 
-url = ["http://yahoo.com/"]
+url = ["http://example.com/"]
 
 list_of_urls = url * max_workers
 
